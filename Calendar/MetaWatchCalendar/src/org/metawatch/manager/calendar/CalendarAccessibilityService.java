@@ -19,11 +19,6 @@ public class CalendarAccessibilityService extends AccessibilityService {
 		asi.flags = AccessibilityServiceInfo.DEFAULT;
 		asi.notificationTimeout = 100;
 		setServiceInfo(asi);
-
-		// ArrayList<PInfo> apps = getInstalledApps(true);
-		// for (PInfo pinfo : apps) {
-		// appsByPackage.put(pinfo.pname, pinfo);
-		// }
 	}
 
 	@Override
