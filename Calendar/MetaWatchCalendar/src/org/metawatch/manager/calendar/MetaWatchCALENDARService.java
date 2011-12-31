@@ -42,7 +42,7 @@ public class MetaWatchCALENDARService extends Service {
 	private static Context ctx;
     private Timer timer=new Timer();
     private static long elapsedtime;
-    private static long UPDATE_INTERVAL = 60*1000;  //default
+    private static long UPDATE_INTERVAL = 10*60*1000;  //default
     private static long DELAY_INTERVAL = 1;//5*1000;
 
 	long		lastObservedCount	= 0;
